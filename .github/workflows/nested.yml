@@ -8,7 +8,7 @@ on:
         type: string
 
 jobs:
-  tarefa-nested:
+  nested:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Executando o Nested no repo2! Ambiente recebido -> ${{ inputs.ambiente }}"
