@@ -8,8 +8,7 @@ on:
         type: string
 
 jobs:
-  passos:
-    name: segundo
+  segundo:
     uses: joaobcandido/repo-reusable/.github/workflows/passos.yml@main
     with:
       ambiente: ${{ inputs.ambiente }}
