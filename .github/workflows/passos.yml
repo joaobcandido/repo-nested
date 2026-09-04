@@ -11,4 +11,4 @@ jobs:
   passos:
     uses: joaobcandido/repo-reusable/.github/workflows/passos.yml@main
     with:
-      ambiente: 'Produção'
+      ambiente: ${{ inputs.ambiente }}
