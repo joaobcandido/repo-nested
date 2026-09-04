@@ -9,6 +9,7 @@ on:
 
 jobs:
   passos:
+    name: segundo
     uses: joaobcandido/repo-reusable/.github/workflows/passos.yml@main
     with:
       ambiente: ${{ inputs.ambiente }}
