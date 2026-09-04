@@ -8,7 +8,7 @@ on:
         type: string
 
 jobs:
-  nested:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Executando o Nested no repo2! Ambiente recebido -> ${{ inputs.ambiente }}"
+  passos:
+    uses: joaobcandido/repo-reusable/.github/workflows/passos.yml@main
+    with:
+      ambiente: 'Produção'
